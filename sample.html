@@ -1,1 +1,66 @@
-<div class="block-flip"></div>
+<div class="row">
+  <div class="block-flip col-4 r_1-1">
+    <a href="" class="block-flip__wrapper">
+      <div class="block-flip__front">
+        <img src="https://picsum.photos/600/400" alt="sample image">
+      </div>
+      <div class="block-flip__back">
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="block-flip col-4 r_1-1">
+    <a href="" class="block-flip__wrapper">
+      <div class="block-flip__front">
+        <img src="https://picsum.photos/600/400" alt="sample image">
+      </div>
+      <div class="block-flip__back">
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="block-flip col-4 r_1-1">
+    <a href="" class="block-flip__wrapper">
+      <div class="block-flip__front">
+        <img src="https://picsum.photos/600/400" alt="sample image">
+      </div>
+      <div class="block-flip__back">
+        <p>
+          Lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          Lorem ipsum dolor sit amet...
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<constructor component="block-flip">
+  <field type="separator" label="Front"></field>
+  <field type="checkbox" label="Front visibility" target="class" value="front--backface" selected="true" helper="See Front's face from the Back"></field>
+  <field type="separator" label="Back"></field>
+  <field type="select" label="Background" target="class" values="back__bg--#colors" labels="#colors" selected="back__bg--darkblue" helper="Set the back face's background color"></field>
+  <field type="number" label="Background opacity" target="class" range="0-10" value="7" prefix="back__bg__opacity--" helper="Set transparency to the back face's background. From 0 to 10, where 0 is non-visible and 10 is fully opaque."></field>
+  <field type="select" label="Font color" target="class" values="ft-#colors" labels="#colors" selected="ft-white" helper="Set the back face's font color"></field>
+</constructor>

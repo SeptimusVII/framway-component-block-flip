@@ -5,7 +5,7 @@ module.exports = function(app){
     BlockFlip.lastUpdate     = "2.0.0";
     BlockFlip.version        = "1";
     // BlockFlip.factoryExclude = true;
-    // BlockFlip.loadingMsg     = "This message will display in the console when component will be loaded.";
+    BlockFlip.loadingMsg     = "[Deprecated]";
     // BlockFlip.requires       = [];
 
     // BlockFlip.prototype.onCreate = function(){
